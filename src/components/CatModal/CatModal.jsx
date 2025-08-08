@@ -5,7 +5,7 @@ export default function CatModal({ cat, onClose }) {
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
         <img src={cat.url} alt="cat big" />
-        <button className={styles.closeButton} onClick={onClose}>Close</button>
+        <button className={styles.closeButton} onClick={onClose}>Close!</button>
       </div>
     </div>
   );
